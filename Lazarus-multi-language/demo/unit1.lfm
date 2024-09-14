@@ -1,0 +1,64 @@
+object Form1: TForm1
+  Left = 451
+  Height = 240
+  Top = 135
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '3.4.0.0'
+  object langen: TButton
+    Left = 240
+    Height = 32
+    Top = 152
+    Width = 72
+    Caption = 'ENGLISH'
+    TabOrder = 0
+    OnClick = langenClick
+  end
+  object langcn: TButton
+    Left = 200
+    Height = 32
+    Top = 192
+    Width = 115
+    Caption = 'Chinese Simplified'
+    TabOrder = 1
+    OnClick = langcnClick
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 15
+    Top = 16
+    Width = 42
+    Caption = 'Apptitle'
+  end
+  object menuopt: TLabel
+    Left = 24
+    Height = 15
+    Top = 48
+    Width = 47
+    Caption = '-Option-'
+  end
+  object langdef: TButton
+    Left = 242
+    Height = 29
+    Top = 112
+    Width = 73
+    Caption = 'Default'
+    TabOrder = 2
+    OnClick = langdefClick
+  end
+  object ComboBox1: TComboBox
+    Left = 24
+    Height = 23
+    Top = 72
+    Width = 100
+    ItemHeight = 15
+    TabOrder = 3
+  end
+  object Language1: TLanguage
+    Left = 264
+    Top = 32
+  end
+end
