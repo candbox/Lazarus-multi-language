@@ -9,7 +9,7 @@ Step1 : Open source file newpackage1.lpk to compile component.
 
 Step2 : Install Component.
 
-![Install](./lazarus-multi-language/images/install.png)
+![Install](./Lazarus-multi-language/images/install.png)
 
 --
 
@@ -18,7 +18,7 @@ Step3: Create an language file name as "APPLANG.json", view the demo folder.
 
 Step4: Open project as demo, menu->select project options-->Resources-->add "APPLANG.json" file.
 
-![Import](./lazarus-multi-language/images/import-json.png)
+![Import](./Lazarus-multi-language/images/import-json.png)
 
 And Resources name: "APPLANG", Resources type: RCDATA
 
