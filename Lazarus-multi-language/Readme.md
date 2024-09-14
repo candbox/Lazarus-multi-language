@@ -18,7 +18,7 @@ Step3: Create an language file name as "APPLANG.json", view the demo folder.
 
 Step4: Open project as demo, menu->select project options-->Resources-->add "APPLANG.json" file.
 
-![Install](./images/import-json.png)
+![import](./images/import-json.png)
 
 And Resources name: "APPLANG", Resources type: RCDATA
 
